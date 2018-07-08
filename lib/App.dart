@@ -7,6 +7,10 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Log me in',
+      theme: ThemeData(
+        primaryColor: Colors.white,
+        accentColor: Colors.green,
+      ),
       home: Scaffold(
         appBar: AppBar(
           title: Text('Log in'),
